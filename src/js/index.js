@@ -11,6 +11,5 @@ function loadComponent() {
 
   
 document.addEventListener("DOMContentLoaded", () => {
-    // document.getElementById("button-hook").appendChild(loadComponent());
     loadComponent()
 });

@@ -27,5 +27,23 @@ module.exports = {
             },
         ]
     },
+    plugins: [
+        new UglifyJsPlugin({
+            uglifyOptions: {
+              ecma: 6,
+              warnings: false,
+              output: {
+                comments: false,
+                beautify: false,
+              },
+              toplevel: false,
+              nameCache: null,
+              ie8: false,
+              keep_classnames: undefined,
+              keep_fnames: false,
+              safari10: false,
+            }
+          })
+    ]
     
 }
