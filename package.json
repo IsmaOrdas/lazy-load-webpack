@@ -1,0 +1,21 @@
+{
+  "name": "lazyload-component",
+  "version": "1.0.0",
+  "description": "Test to lazy-load components with webpack",
+  "main": "index.js",
+  "author": "Ismael Ordás Carro",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.14.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^3.8.1"
+  }
+}
